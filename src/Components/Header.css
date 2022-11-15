@@ -1,0 +1,26 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  grid-area: navbar;
+  position: relative;
+  padding-left: 4rem;
+}
+.first {
+  display: inline-block;
+  margin-right: 5%;
+  padding-left: 1.3em;
+  position: relative;
+  z-index: 1050;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.second {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  display: inline-block;
+  margin-right: 5%;
+  padding-left: 1.3em;
+  position: relative;
+  z-index: 1050;
+}

@@ -1,0 +1,147 @@
+.Sidebar {
+  grid-area: sidebarOuter;
+  display: block;
+}
+.SidebarContainer {
+  color: #fff;
+  background: #0e1a2b;
+  padding: 8%;
+  display: block;
+}
+label {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+input {
+  width: 100%;
+  background: #182c47;
+  border: none;
+  line-height: 2;
+  margin-top: 0.5rem;
+  color: #c1d1e8;
+}
+input[type="number" i] {
+  padding: 1px 2px;
+}
+.sorting-btn {
+  height: 2rem;
+  background: #5692e8;
+  color: #fff;
+  width: 14%;
+  font-weight: 600;
+  font-family: "Mulish";
+}
+button,
+button:focus {
+  border: none;
+  box-shadow: none;
+}
+button {
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 0em;
+  padding: 1px 6px;
+}
+select {
+  height: 2rem;
+  width: 86%;
+  margin-top: 0.5rem;
+  background: #182c47;
+  border: none;
+  color: #c1d1e8;
+}
+select:not(:-internal-list-box) {
+  overflow: visible !important;
+}
+select {
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+}
+.button-container {
+  margin-bottom: 0;
+  text-align: right;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.clear-filter-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  background-color: #5692e8;
+  padding: 0.5rem 1rem;
+}
+/* ==================================new css============================= */
+.sidebar-container {
+  color: #fff;
+  background: #0e1a2b; 
+  padding: 8%;
+}
+
+.sidebar-container > h3 {
+  margin: 0;
+}
+
+select, option {
+  height: 2rem;
+  width: 86%;
+  margin-top: 0.5rem;
+  background: #182c47;
+  border: none;
+  color: #c1d1e8;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.sorting-btn {
+  height: 2rem;
+  background: #5692e8;
+  color: #fff;
+  width: 14%;
+  font-weight: 600;
+  font-family: 'Mulish';
+}
+
+.clear-filter-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  background-color: #5692e8;
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width: 575.98px) {
+  .clear-filter-btn {
+      width: 100%;
+  }
+}
